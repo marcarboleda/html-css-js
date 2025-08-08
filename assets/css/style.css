@@ -73,11 +73,11 @@ body {
 }
 
 .profile-img-container {
-    width: 220px;
-    height: 220px;
+    width: 265px;
+    height: 265px;
     margin: 0 auto 30px;
     border-radius: 50%;
-    border: 1px solid var(--accent-color);
+    border: 0px solid var(--accent-color);
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -170,7 +170,6 @@ body {
     filter: invert(1);
 }
 
-/* Custom scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
 }
