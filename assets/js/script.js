@@ -3,7 +3,7 @@ document.querySelectorAll('.project-title').forEach(title => {
         e.preventDefault();
         const colors = ['#120f31ff', '#24243e', '#302b63', '#1a1a2e', '#615d48ff'];
         const randomColor = colors[Math.floor(Math.random() * colors.length)];
-        document.querySelector('.portfolio-section').style.backgroundColor = randomColor;
+        document.querySelector('.project-section').style.backgroundColor = randomColor;
     });
 });
 
